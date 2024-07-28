@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import './App.css';
+import '../style/App.css';
 
 const formatTime = (time) => {
     const minutes = Math.floor(time / 6000);
