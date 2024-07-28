@@ -1,1 +1,34 @@
+.lap-timer {
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
 
+.timer-display {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.controls button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.lap-list {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.lap-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.lap-list li {
+    padding: 5px 0;
+}
